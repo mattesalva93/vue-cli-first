@@ -1,7 +1,5 @@
 <template>
-  <div>
-      <h1>La mia prima App con Vue Cli!</h1>
-  </div>
+  <h1>La mia prima App con Vue Cli!</h1>
 </template>
 
 <script>
@@ -14,5 +12,7 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
-
+  div h1 {
+    text-align: center;
+  }
 </style>

@@ -1,16 +1,17 @@
 <template>
   <div id="app">
-    <qualsiasinomebastachenonsiatitle/>
+    <hero/>
   </div>
 </template>
 
 <script>
-import qualsiasinomebastachenonsiatitle from './components/qualsiasinomebastachenonsiatitle.vue'
+import Hero from './components/hero.vue'
+
 
 export default {
   name: 'App',
   components: {
-    qualsiasinomebastachenonsiatitle
+    Hero
   }
 }
 </script>
